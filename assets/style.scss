@@ -1,0 +1,26 @@
+$semantic-root-element: '#__nuxt';
+@import '@picocss/pico/scss/pico';
+
+html,
+body {
+  margin: 0;
+  font-size: 2vw;
+  color: #104273;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#container {
+  position: relative;
+}
+
+#item {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Franklin Gothic Medium', 'Franklin Gothic', sans-serif;
+  padding: 10%;
+}
