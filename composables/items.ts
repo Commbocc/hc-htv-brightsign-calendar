@@ -50,22 +50,22 @@ export const useItems = () => {
   const backgroundImage = computed(() => {
     switch (activeItem.value.calendar) {
       case '{7EC79ED6-598E-4E99-8A0E-267AE3516F37}':
-        return 'parks-recs-bg.jpg'
+        return 'Parks-Recs-BG.jpg'
 
       case '{595E6336-FDDE-4697-BD2F-A89F6C238427}':
-        return 'commission-meetings-bg.jpg'
+        return 'Commission-Meetings-BG.jpg'
 
       case '{026F5CA7-685F-48CF-86CD-2C23521B6385}':
-        return 'public-meetings-bg.jpg'
+        return 'Public-Meetings-BG.jpg'
 
       case '{E2DBCF3A-1E74-4809-B3BB-1E30AB91E878}':
-        return 'business-events-bg.jpg'
+        return 'Business-Events-BG.jpg'
 
       case '{BFD8E5EE-B8EC-4308-90B0-B2DA8C960EB8}':
-        return 'public-events-bg.jpg'
+        return 'Public-Events-BG.jpg'
 
       case '{3C69420B-EBE2-4D8B-8C04-A12CAF68D01C}':
-        return 'public-engagement-bg.jpg'
+        return 'Public-Engagement-BG.jpg'
     }
   })
 
